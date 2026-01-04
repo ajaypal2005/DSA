@@ -31,14 +31,11 @@ int main()           // execution starts from here
     int arr[5] = {1, 2, 3, 4, 5}; // Array
 
     // user-defined data types
-    struct Person
-    { // Structure
-        string name;
-        int age;
-    };
+     
     class Basics
     {
     }; // Class
+
 
     return 0;
 }
