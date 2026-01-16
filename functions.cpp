@@ -1,11 +1,19 @@
 #include <iostream>
 using namespace std;
-void demonstrateFunctions() {
-    // Simple function to demonstrate function definition and calling
-    auto add = [](int x, int y) {
-        return x + y;
-    };
+// Simple function to demonstrate function definition and calling
+//
+// here x and y are parameters passed to the function
+void add(int x, int y)
+{
 
-    int num1 = 5, num2 = 10;
-    cout << "The sum of " << num1 << " and " << num2 << " is " << add(num1, num2) << endl;
+    cout << x + y;
+};
+
+int main()
+{
+    add(5, 10);
+    return 0;
 }
+// arguments vs parameters:
+// parameters are the variables defined in the function definition
+// arguments are the actual values passed to the function when it is called
