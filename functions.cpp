@@ -17,3 +17,8 @@ int main()
 // arguments vs parameters:
 // parameters are the variables defined in the function definition
 // arguments are the actual values passed to the function when it is called
+
+// Example:
+// void add(int x, int y)  --> x and y are parameters
+// add(5, 10);             --> 5 and 10 are arguments
+
